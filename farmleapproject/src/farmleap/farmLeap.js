@@ -52,9 +52,6 @@ class FarmLeap extends Component {
       allSize.push(rugbymenSize[i].value);
       if (rugbymenSize[i].value < referenceSize) {
         rugbymenSize[i].style.color = "red";
-      }
-      if (rugbymenSize[i].value == referenceSize) {
-        rugbymenSize[i].style.color = "blue";
       } else {
         rugbymenSize[i].style.color = "green";
       }
@@ -62,7 +59,6 @@ class FarmLeap extends Component {
 
     Array.from(allSize).map((element) => {
       eachSize = parseInt(element);
-      console.log(eachSize);
       summedValue += eachSize;
     });
     min = Math.min(...allSize);
