@@ -1,0 +1,22 @@
+{
+  "name": "farmleapproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolas1904/FarmLeapProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicolas1904/FarmLeapProject/issues"
+  },
+  "homepage": "https://github.com/Nicolas1904/FarmLeapProject#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.2"
+  }
+}
